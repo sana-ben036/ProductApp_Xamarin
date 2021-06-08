@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProductApp.ShowProductPage" >
   <ContentPage.Content>
-      <StackLayout Margin="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout Margin="10" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" >
             <Frame BackgroundColor="White" Padding="20" CornerRadius="0">
                 <Label Text="Product Details" HorizontalTextAlignment="Center" TextColor="LightGreen" FontSize="30"/>
             </Frame>
             
             <Grid>
-                <Grid.RowDefinitions >
+                <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
@@ -44,7 +44,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Add New Product" x:Name="btnAddProduct" HorizontalOptions="Start" BackgroundColor="LightGreen" TextColor="White" FontSize="20" Clicked="btnAddProduct_Clicked"/>
+            <Button Text="Add New Product" x:Name="btnAddProduct"  HorizontalOptions="Center" BackgroundColor="LightGreen" TextColor="White" FontSize="20" Clicked="btnAddProduct_Clicked"/>
 
         </StackLayout>
   </ContentPage.Content>
