@@ -13,8 +13,7 @@ namespace ProductApp.Services
     {
         private AppDbContext GetContext()
         {
-            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Product.db3");
-            return new AppDbContext(dbPath);
+            return new AppDbContext();
         }
 
         public async Task<List<Product>> GetList()
@@ -31,26 +30,28 @@ namespace ProductApp.Services
             return product;
         }
 
-        public void CreateProduct(Product product)
+        public int CreateProduct(Product product)
         {
             var _dbContext = GetContext();
             _dbContext.Products.Add(product);
-            _dbContext.SaveChanges();
+            int p =  _dbContext.SaveChanges();
+            return p;
         }
 
         public async Task<int> UpdateProduct(Product product)
         {
             var _dbContext = GetContext();
             _dbContext.Products.Update(product);
-           int p = await _dbContext.SaveChangesAsync();
+            int p = await _dbContext.SaveChangesAsync();
             return p;
         }
 
-        public void DeleteProduct(Product product)
+        public int DeleteProduct(Product product)
         {
             var _dbContext = GetContext();
             _dbContext.Products.Remove(product);
-            _dbContext.SaveChanges();
+            int p = _dbContext.SaveChanges();
+            return p;
         }
 
 

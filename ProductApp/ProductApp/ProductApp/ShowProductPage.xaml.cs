@@ -1,4 +1,5 @@
-﻿using ProductApp.Services;
+﻿using ProductApp.Model;
+using ProductApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,13 +29,36 @@ namespace ProductApp
 
         private void ShowProduct()
         {
-            var list = services.GetList().Result;
-            listData.ItemsSource = list;
+            var products = services.GetList().Result;
+            listData.ItemsSource = products;
         }
 
-        private void btnAddProduct_Clicked(object sender, EventArgs e)
+        private void btnAddProduct_Clicked(object sender , EventArgs e)
         {
             this.Navigation.PushAsync(new AddProduct());
+        }
+
+
+        private async void listData_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if(e.SelectedItem != null)
+            {
+                Product product = (Product)e.SelectedItem;
+                string action = await DisplayActionSheet("Actions", "Cancel", null, "Update", "Remove");
+
+                switch (action)
+                {
+                    case "Update":
+                        await this.Navigation.PushAsync(new AddProduct(product));
+                        break;
+                    case "Remove":
+                        services.DeleteProduct(product);
+                        ShowProduct();
+                        break;
+                }
+                listData.SelectedItem = null;
+            }
+
         }
     }
 }

@@ -4,7 +4,10 @@
              x:Class="ProductApp.ShowProductPage" >
   <ContentPage.Content>
       <StackLayout Margin="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <Button Text="Add New Product" x:Name="btnAddProduct" HorizontalOptions="Start" Clicked="btnAddPoduct_Clicked"/>
+            <Frame BackgroundColor="White" Padding="20" CornerRadius="0">
+                <Label Text="Product Details" HorizontalTextAlignment="Center" TextColor="#2196F3" FontSize="30"/>
+            </Frame>
+            <Button Text="Add New Product" x:Name="btnAddProduct" HorizontalOptions="Start" Clicked="btnAddProduct_Clicked"/>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>

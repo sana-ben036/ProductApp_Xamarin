@@ -17,6 +17,13 @@ namespace ProductApp
         ProductService services;
         bool IsUpdate;
         int productId;
+         
+        public AddProduct()
+        {
+            InitializeComponent();
+            services = new ProductService();
+            IsUpdate = false;
+        }
         public AddProduct(Product model )
         {
             InitializeComponent();

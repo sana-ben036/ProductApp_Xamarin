@@ -1,0 +1,16 @@
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ProductApp.csprojAssemblyReference.cache
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\AddProduct.xaml.g.cs
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ShowProductPage.xaml.g.cs
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ProductApp.AssemblyInfoInputs.cache
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ProductApp.AssemblyInfo.cs
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ProductApp.csproj.CoreCompileInputs.cache
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ProductApp.dll
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ref\ProductApp.dll
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\ProductApp.pdb
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\bin\Debug\netstandard2.0\ProductApp.deps.json
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\bin\Debug\netstandard2.0\ProductApp.dll
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\bin\Debug\netstandard2.0\ref\ProductApp.dll
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\bin\Debug\netstandard2.0\ProductApp.pdb
+C:\Users\youcode\source\repos\sana-ben036\ProductApp_Xamarin\ProductApp\ProductApp\ProductApp\obj\Debug\netstandard2.0\XamlC.stamp

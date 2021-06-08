@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FxYvdFb3EsqAG9P74sUQYPlvOfz+1+ALPLat88ZEc/9omP/tD50q8lYjT2fjSqf+J5DKndg6TWmIuwWVZOid9A==",
+  "dgSpecHash": "kPSgSxSKKwsvkGimJoeHqfzGrGRYn7KzEhJgBinR3yqfWiZAFhrdmmqWT4N/K+6OXDk2dCAU+v2mx3xP9ppMpA==",
   "success": true,
   "projectFilePath": "C:\\Users\\youcode\\source\\repos\\sana-ben036\\ProductApp_Xamarin\\ProductApp\\ProductApp\\ProductApp.Android\\ProductApp.Android.csproj",
   "expectedPackageFiles": [
@@ -26,10 +26,12 @@
     "C:\\Users\\youcode\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.15\\microsoft.extensions.logging.abstractions.3.1.15.nupkg.sha512",
     "C:\\Users\\youcode\\.nuget\\packages\\microsoft.extensions.options\\3.1.15\\microsoft.extensions.options.3.1.15.nupkg.sha512",
     "C:\\Users\\youcode\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.15\\microsoft.extensions.primitives.3.1.15.nupkg.sha512",
+    "C:\\Users\\youcode\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
-    "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
-    "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.2\\sqlitepclraw.lib.e_sqlite3.android.2.0.2.nupkg.sha512",
-    "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.2\\sqlitepclraw.provider.e_sqlite3.2.0.2.nupkg.sha512",
+    "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.3\\sqlitepclraw.lib.e_sqlite3.android.2.0.3.nupkg.sha512",
+    "C:\\Users\\youcode\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
     "C:\\Users\\youcode\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\youcode\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\youcode\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

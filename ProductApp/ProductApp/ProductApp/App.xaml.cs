@@ -9,8 +9,7 @@ namespace ProductApp
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ShowProductPage());
         }
 
         protected override void OnStart()
