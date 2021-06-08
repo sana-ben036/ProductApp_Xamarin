@@ -7,9 +7,9 @@
             <Frame BackgroundColor="White" Padding="20" CornerRadius="0">
                 <Label Text="Product Details" HorizontalTextAlignment="Center" TextColor="#2196F3" FontSize="30"/>
             </Frame>
-            <Button Text="Add New Product" x:Name="btnAddProduct" HorizontalOptions="Start" Clicked="btnAddProduct_Clicked"/>
+            
             <Grid>
-                <Grid.RowDefinitions>
+                <Grid.RowDefinitions >
                     <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
@@ -17,9 +17,9 @@
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Label Text="Name" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="0"/>
-                <Label Text="Description" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="1"/>
-                <Label Text="Price" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Name" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="Description" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Price" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" Grid.Row="0" Grid.Column="2"/>
             </Grid>
             <ListView x:Name="listData" HasUnevenRows="True" ItemSelected="listData_ItemSelected">
                 <ListView.ItemTemplate>
@@ -35,17 +35,16 @@
                                         <ColumnDefinition></ColumnDefinition>
                                         <ColumnDefinition></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
-                                    <Label Text="{Binding Name}" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="0"/>
-                                    <Label Text="{Binding Description}" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="1"/>
-                                    <Label Text="{Binding Price}" FontAttributes="Bold" HorizontalTextAlignment="Start" Grid.Row="0" Grid.Column="2"/>
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="0"/>
+                                    <Label Text="{Binding Description}" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="1"/>
+                                    <Label Text="{Binding Price}" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="2"/>
                                 </Grid>
                             </Frame>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-                
             </ListView>
-          
+            <Button Text="Add New Product" x:Name="btnAddProduct" HorizontalOptions="Start" BackgroundColor="#2196F3" TextColor="White" FontSize="20" Clicked="btnAddProduct_Clicked"/>
 
         </StackLayout>
   </ContentPage.Content>
